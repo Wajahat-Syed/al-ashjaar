@@ -13,7 +13,7 @@
 				<div class="col-md-3">
 					<div class="about">
 						<a class="" href="index.html"> <img class="img-fluid" src="images/sufiana-white.png" alt=""></a>
-						<h6>It is a long established fact that a reader will be distracted by the readable content of a h6age when looking at its layout.cover many web sites still in their forn comh6nay alh6habet infancy.</h6>
+						<p>We believe that children are the future of any society and there should be no differences when it comes to being exposed to knowledge and information.Taking place in our school,the activities are designed partly for personality development and connecting students to their surroundings.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -25,6 +25,8 @@
 							<li><a href="#">current opening</a> </li>
 							<li><a href="#">Walk in</a> </li>
 							<li><a href="#">faq</a> </li>
+							<li><a href="#">about us</a> </li>
+							<li><a href="#">our clients</a> </li>
 						</ul>
 					</div>
 				</div>
@@ -32,9 +34,10 @@
 					<div class="contact">
 						<h3 class="mt-4">Contact</h3>
 						<div class="underline"></div>
-						<p class="mt-4">Address: 3rd Floor, Building No. 261, Lane No 5, Westend Marg, Said-ul-Ajaib, Saket</p>
-						<p>Phone : 12554854555</p>
-						<p><i class="fa fa-phone" aria-hidden="true"></i> +91-9891408339/9540078339</p>
+						<p class="mt-2">Fell free to get in touch us via Phone or send us a message.</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9891408339/9540078339</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; al-ashjaar@gmail.com</p>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; 1st Floor, zakir nagar building</p>
 					</div>
 				</div>
 				<div class="col-md-3">
@@ -43,9 +46,13 @@
 					</iframe>
 				</div>
 			</div>
-		</div>
-		<div class="footer-strip">
-			© Designed and developed by Wajahatsyed | All rights reserved for Al-Ashjaar pvt. ltd.
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-strip mt-2">
+						© Designed and developed by Wajahatsyed | All rights reserved for Al-Ashjaar pvt. ltd.
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
