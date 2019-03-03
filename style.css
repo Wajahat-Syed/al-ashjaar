@@ -15,16 +15,20 @@ body{
 }
 /*header*/
 .header{
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.6);
 	padding: 10px 0;
-	background: var(--dark-grey);
+	/*background: var(--dark-grey);*/
+	background: #303573;
 }
 .header .navbar-dark .navbar-nav .nav-link{
 	color:  var(--white);
 }
 .header .navbar-dark .navbar-nav .active>.nav-link, .header .navbar-dark .navbar-nav .nav-link.active, .header .navbar-dark .navbar-nav .nav-link.show, .header .navbar-dark .navbar-nav .show>.nav-link{
 	color:  var(--yellow);
+	font-weight: 900;
 }
-.header .navbar-dark .navbar-nav .nav-link:hover,.header .form-inline a:hover{
+.header .navbar-dark .navbar-nav .nav-link:hover{
+	font-weight: 900;
 	color:  var(--yellow)!important;
 }
 .header .navbar-dark .navbar-nav .nav-link,.header .form-inline a{
@@ -35,17 +39,87 @@ body{
 .header .navbar-dark .navbar-brand img{
 	width: 100px;
 }
-/*header end*/
 
 /*about us*/
+.about-us{
+	margin: 50px 0;
+}
 .about-us .about-img img{
 	border-radius: 15px;
 	margin: 10px;
 }
-/*about us end*/
-
+.about-us .about-content{
+	padding: 30px 30px 10px;
+}
+.about-us .about-content h6{
+	color: var(--yellow);
+	font-weight: 600;
+}
+.about-us .about-content h3{
+  	margin: 18px 0 32px;
+    font-size: 49px;
+}
+.about-us .about-content h5{
+	font-size: 24px;
+}
+.about-us .about-content h5 span{
+	font-size: 16px;
+	color: #818181;
+}
 /*signup-form*/
 .sign-up{
+	margin: 50px 0;
 	padding: 40px 0;
 }
-/*signup-form end*/
+/*login*/
+section.login{
+	margin: 100px 0 200px;
+}
+/*footer*/
+.footer{
+	position: relative;
+	height: 290px;
+	color: var(--white);
+	background: #303573;
+	/*background: var(--dark-grey);*/
+	padding: 30px 0;
+
+}
+.footer .underline{
+	width: 35px;
+	height: 4px;
+	background: var(--yellow);
+}
+.facebookfeeds{
+	position: absolute;
+	right: 0px;
+	top: -170px;
+	box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.8);
+}
+.footer .pages h3,.footer .contact h3{
+	color: var(--yellow);
+}
+.footer a img{
+	width: 180px;
+}
+.footer h6{
+	text-align: justify;
+    font-size: 15px;
+}
+.footer .about,.footer .pages,.footer .contact{
+	/*margin-top: 100px;*/
+}
+.footer .pages ul li a{
+	text-decoration: none;
+	list-style: none;
+	color: var(--white);
+	text-transform: uppercase;
+}
+/*current opening page*/
+section.jobs-table{
+	margin: 50px 0;
+}
+/*FAQ page*/
+section.FAQ{
+	margin: 50px 0;
+}
