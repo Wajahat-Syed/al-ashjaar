@@ -8,6 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<!-- fontswesome 4.7 -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
 	<!-- header -->
