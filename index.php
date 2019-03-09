@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 
+
 <!-- slider -->
 <section class="home-slider">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -36,20 +37,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="about-img">
-							<img src="images/about-1.jpg" class="img-fluid" alt="">
-						</div>
-						<div class="about-img">
-							<img src="images/about-2.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about-img">
-							<img src="images/about-3.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
+				<div class="about-img">
+					<img src="images/about-1.jpg" class="img-fluid" alt="">
 				</div>
 			</div>
 			<div class="col-md-6">
@@ -61,6 +50,28 @@
 				</div>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="why-we mt-4">
+					<h1>WHY US ? </h1>					
+					<p style="color: var(--yellow);font-weight: 900;">SERVICES WE PROVIDE</p>
+					<ul class="list-unstyled">
+						<li><span >&#x2714; </span> &nbsp; Work ethics are what we follow the most</li>
+						<li><span >&#x2714; </span> &nbsp; we never compromise on the quality </li>
+						<li><span >&#x2714; </span> &nbsp; We know what you want</li>
+						<li><span >&#x2714; </span> &nbsp; Training programmes</li>
+						<li><span >&#x2714; </span> &nbsp; Best salaries</li>
+						<li><span >&#x2714; </span> &nbsp; We are trustworthy</li>
+						<li><span >&#x2714; </span> &nbsp; Over 5 years of experience</li>
+						<li><span >&#x2714; </span> &nbsp; Professional standards</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="images/about-3.png" class="img-fluid">
+				<img src="images/about-4.png" class="img-fluid">
+			</div>
+		</div>
 	</div>
 </section>
 <!-- about us end -->
@@ -70,7 +81,5 @@
 
 
 <?php include 'footer.php'; ?>
-
-
 
 
