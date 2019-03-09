@@ -41,8 +41,8 @@
 					</div>
 				</div>
 				<div class="col-md-3">
-					<iframe class="facebookfeeds" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FMercifulServantHD&width=250&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=400"
-					scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:250px; height:400px; background: white; " allowTransparency="true">
+					<iframe class="facebookfeeds" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FMercifulServantHD&width=250&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=380"
+					scrolling="yes" frameborder="0" allowTransparency="true">
 					</iframe>
 				</div>
 			</div>

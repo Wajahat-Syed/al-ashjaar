@@ -10,10 +10,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<!-- fontswesome 4.7 -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
 </head>
 <body>
+	
 	<!-- header -->
+
 <section class="header">
 	<div class="container">
 		<div class="row">
@@ -64,3 +69,4 @@
 	</div>
 </section>
 <!-- header end -->
+	

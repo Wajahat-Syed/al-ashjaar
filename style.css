@@ -45,7 +45,6 @@ body{
 	margin: 50px 0;
 }
 .about-us .about-img img{
-	border-radius: 15px;
 	margin: 10px;
 }
 .about-us .about-content{
@@ -65,6 +64,13 @@ body{
 .about-us .about-content h5 span{
 	font-size: 16px;
 	color: #818181;
+}
+/*why we*/
+.why-we ul li{
+	font-size: 20px;
+}
+.why-we ul li span{
+	color: var(--yellow);
 }
 /*signup-form*/
 .sign-up{
@@ -93,9 +99,14 @@ section.login{
 	color: var(--yellow);
 }
 .facebookfeeds{
+	border:none; 
+	overflow:hidden; 
+	width:250px; 
+	height:380px; 
+	background: white;
 	position: absolute;
 	right: 0px;
-	top: -20px;
+	top: -15px;
 	box-shadow: -2px -2px 9px 0px rgba(0,0,0,0.8);
 }
 .footer-strip{
@@ -133,3 +144,9 @@ section.jobs-table{
 section.FAQ{
 	margin: 50px 0;
 }
+/*modules page*/
+.admin-view{
+	margin: 50px 0;
+	min-height: 400px;
+}
+/*slick*/

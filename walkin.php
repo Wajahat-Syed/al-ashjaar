@@ -9,47 +9,35 @@
 				  <thead class="thead-dark">
 				    <tr>
 				      <th scope="col">Job Title</th>
-				      <th scope="col">Venue</th>
 				      <th scope="col">Timing</th>
-				      <th scope="col">Salary</th>
+				      <th scope="col">Venue</th>
 				    </tr>
 				  </thead>
 				  <tbody>
 				    <tr>
-				      <th scope="row">1</th>
-				      <td>Mark</td>
-				      <td>Otto</td>
-				      <td>@mdo</td>
-				    </tr>
-				     <tr>
-				      <th scope="row">2</th>
-				      <td>Mark</td>
-				      <td>Otto</td>
-				      <td>@mdo</td>
-				    </tr>
-				     <tr>
-				      <th scope="row">3</th>
-				      <td>Mark</td>
-				      <td>Otto</td>
-				      <td>@mdo</td>
-				    </tr>
-				     <tr>
-				      <th scope="row">4</th>
-				      <td>Mark</td>
-				      <td>Otto</td>
-				      <td>@mdo</td>
+				      <th scope="row">Painter</th>
+				      <td>2:30 pm</td>
+				      <td>Zakir nagar, 3rd Floor galo no.7</td>
 				    </tr>
 				    <tr>
-				      <th scope="row">5</th>
-				      <td>Jacob</td>
-				      <td>Thornton</td>
-				      <td>@fat</td>
+				      <th scope="row">Driver</th>
+				      <td>2:30 pm</td>
+				      <td>Zakir nagar, 3rd Floor galo no.7</td>
 				    </tr>
 				    <tr>
-				      <th scope="row">6</th>
-				      <td>Larry</td>
-				      <td>the Bird</td>
-				      <td>@twitter</td>
+				      <th scope="row">Helper</th>
+				      <td>2:30 pm</td>
+				      <td>Zakir nagar, 3rd Floor galo no.7</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Doctor</th>
+				      <td>2:30 pm</td>
+				      <td>Zakir nagar, 3rd Floor galo no.7</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">Civil Engineer</th>
+				      <td>2:30 pm</td>
+				      <td>Zakir nagar, 3rd Floor galo no.7</td>
 				    </tr>
 				  </tbody>
 				</table>
