@@ -2,7 +2,11 @@
 
 <section class="FAQ">
   <div class="container">
-  <h1>FAQ</h1>
+    <div class="row">
+      <div class="col-md-12">
+        <h1>FAQ</h1>
+      </div>
+    </div>
     <div class="row mt-4">
       <div class="col">
         <div id="accordion">

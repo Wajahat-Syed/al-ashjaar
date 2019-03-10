@@ -10,10 +10,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	<!-- fontswesome 4.7 -->
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-
-	<link rel="stylesheet" href="css/slick.css">
-	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- slick  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 </head>
 <body>
 	
@@ -35,10 +34,10 @@
 				        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">About Us</a>
+				        <a class="nav-link" href="#about">About Us</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Our Clients</a>
+				        <a class="nav-link" href="#clients">Our Clients</a>
 				      </li>
 				      <li class="nav-item">
 				        <a class="nav-link" href="current-opening.php">Current openings</a>

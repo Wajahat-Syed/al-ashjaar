@@ -43,8 +43,9 @@
 				      </li>
 				    </ul>
 				      <form class="form-inline my-2 my-lg-0">
-					      <button class="btn btn-outline-primary bg-primary mr-2 my-2 my-sm-0" type="submit"><a class="btn text-white" href="admin.php">Signup</a></button>
-					      <button class="btn btn-outline-success bg-success my-2 my-sm-0" type="submit"><a class="btn text-white" href="login.php"> Login</a></button>
+					      <button class="btn btn-outline-primary bg-primary mr-2 my-2 my-sm-0" type="button"><a class="btn text-white" href="admin.php">Signup</a></button>
+					      <button class="btn btn-outline-success bg-success my-2 mr-2  my-sm-0" type="button"><a class="btn text-white" href="login.php"> Login</a></button>
+					      <button class="btn btn-outline-success bg-success my-2  my-sm-0" type="button"><a class="btn text-white" href="login.php"> Logout</a></button>
 					  </form>
 				  </div>
 				</nav>
