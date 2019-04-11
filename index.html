@@ -8,50 +8,46 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- google fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+	<!-- fontswesome 4.7 -->
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- slick  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
 </head>
 <body>
+	
 	<!-- header -->
+
 <section class="header">
 	<div class="container">
 		<div class="row">
 			<div class="col">
 				<nav class="navbar navbar-expand-lg navbar-dark">
-				  <a class="navbar-brand" href="#"> <img src="images/sufiana-white.png" alt=""></a>
+				  <a class="navbar-brand" href="index.html"> <img src="images/sufiana-white.png" alt=""></a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 
 				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav mr-auto">
-				      <li class="nav-item active">
-				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      <li class="nav-item ">
+				        <a class="nav-link" id="index" href="index.html">Home <span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">About Us</a>
+				        <a class="nav-link" href="./index.html#about">About Us</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Our Clients</a>
+				        <a class="nav-link" href="#clients">Our Clients</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Current openings</a>
+				        <a class="nav-link" href="current-opening.html">Current openings</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Walk-in Interview</a>
+				        <a class="nav-link" href="walkin.html">Walk-in Interview</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">FAQs</a>
+				        <a class="nav-link" href="FAQ.html">FAQs</a>
 				      </li>
-				      <!-- <li class="nav-item dropdown">
-				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				          Dropdown
-				        </a>
-				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-				          <a class="dropdown-item" href="#">Action</a>
-				          <a class="dropdown-item" href="#">Another action</a>
-				          <div class="dropdown-divider"></div>
-				          <a class="dropdown-item" href="#">Something else here</a>
-				        </div>
-				      </li> -->
 				    </ul>
 				  </div>
 				</nav>
@@ -61,6 +57,7 @@
 </section>
 <!-- header end -->
 
+
 <!-- slider -->
 <section class="home-slider">
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -68,13 +65,25 @@
 	    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 	    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 	    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+	    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
 	  </ol>
 	  <div class="carousel-inner">
-	    <div class="carousel-item active">
+	  	<div class="carousel-item active">
+	      <img class="d-block w-100" src="images/bg-4.jpg" alt="First slide">
+	    </div>
+	    <div class="carousel-item">
 	      <img class="d-block w-100" src="images/bg-1.jpg" alt="First slide">
+	    </div>
+	  	<div class="carousel-item ">
+	      <img class="d-block w-100" src="images/bg-5.jpg" alt="First slide">
 	    </div>
 	    <div class="carousel-item">
 	      <img class="d-block w-100" src="images/bg-2.jpg" alt="Second slide">
+	    </div>
+	    <div class="carousel-item">
+	      <img class="d-block w-100" src="images/bg-6.jpg" alt="Second slide">
 	    </div>
 	    <div class="carousel-item">
 	      <img class="d-block w-100" src="images/bg-3.jpg" alt="Third slide">
@@ -93,34 +102,156 @@
 <!-- slider end -->
 
 <!-- about us -->
-<section class="about-us">
+<section class="about-us" id="about">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="about-img">
-							<img src="images/about-1.jpg" class="img-fluid" alt="">
-						</div>
-						<div class="about-img">
-							<img src="images/about-2.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="about-img">
-							<img src="images/about-3.jpg" class="img-fluid" alt="">
-						</div>
-					</div>
+				<div class="about-img">
+					<img src="images/about-1.jpg" class="img-fluid" alt="">
 				</div>
 			</div>
-			<div class="col-md-6"></div>
+			<div class="col-md-6">
+				<div class="about-content">
+					<h6>WE ARE HELPING PEOPLE TO WORK ABROAD</h6>
+					<h3>We Provide Manpower Services Since 2016</h3>
+					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their forn compnay alphabet infancy.</p>
+					<h5> Yankee Williamson <span>  - Founder</span></h5>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="why-we mt-4">
+					<h1>WHY US ? </h1>					
+					<p style="color: var(--yellow);font-weight: 900;">SERVICES WE PROVIDE</p>
+					<ul class="list-unstyled">
+						<li><span >&#x2714; </span> &nbsp; Work ethics are what we follow the most</li>
+						<li><span >&#x2714; </span> &nbsp; we never compromise on the quality </li>
+						<li><span >&#x2714; </span> &nbsp; We know what you want</li>
+						<li><span >&#x2714; </span> &nbsp; Training programmes</li>
+						<li><span >&#x2714; </span> &nbsp; Best salaries</li>
+						<li><span >&#x2714; </span> &nbsp; We are trustworthy</li>
+						<li><span >&#x2714; </span> &nbsp; Over 5 years of experience</li>
+						<li><span >&#x2714; </span> &nbsp; Professional standards</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<img src="images/about-3.png" class="img-fluid">
+				<img src="images/about-4.png" class="img-fluid">
+			</div>
 		</div>
 	</div>
 </section>
 <!-- about us end -->
+
+<!-- our clients -->
+<section class="our-clients" id="clients">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="heading">
+					<h1 class="text-center">Our Clients</h1>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 mt-4">
+				<div class="client-autoplay">
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image1.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image2.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image3.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image5.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image6.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image4.png"></div>   
+				 	<div class="client-item"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>  
+			 	</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- our clients end-->
+		
+<!-- location -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.7802683858777!2d77.19565631503369!3d28.516257982463763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce21934c62e67%3A0x8b8d35eeb51d3401!2sSocialCops!5e0!3m2!1sen!2sin!4v1551171082065" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<!-- location end -->
+
+<!-- footer -->
+<section class="footer">
+	<div class="container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="about">
+						<a class="" href="index.html"> <img class="img-fluid" src="images/sufiana-white.png" alt=""></a>
+						<p>We believe that children are the future of any society and there should be no differences when it comes to being exposed to knowledge and information.Taking place in our school,the activities are designed partly for personality development and connecting students to their surroundings.</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="pages ml-4">
+						<h3 class="mt-4">Pages</h3>
+						<div class="underline"></div>
+						<ul class="list-unstyled mt-4">
+							<li><a href="#">home</a> </li>
+							<li><a href="#">current opening</a> </li>
+							<li><a href="#">Walk in</a> </li>
+							<li><a href="#">faq</a> </li>
+							<li><a href="#">about us</a> </li>
+							<li><a href="#">our clients</a> </li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="contact">
+						<h3 class="mt-4">Contact</h3>
+						<div class="underline"></div>
+						<p class="mt-2">Fell free to get in touch us via Phone or send us a message.</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91-9891408339/9540078339</p>
+						<p><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp; al-ashjaar@gmail.com</p>
+						<p><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; 1st Floor, zakir nagar building</p>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<iframe class="facebookfeeds" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FMercifulServantHD&width=250&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=380"
+					scrolling="yes" frameborder="0" allowTransparency="true">
+					</iframe>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="footer-strip mt-2">
+						© Designed and developed by Wajahatsyed | All rights reserved for Al-Ashjaar pvt. ltd.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- footer end -->
 	<!-- bootstrap js -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- slick js -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js" ></script>
+  	<script type="text/javascript">
+	    $(document).ready(function(){
+			$('.client-autoplay').slick({
+			  slidesToShow: 5,
+			  slidesToScroll: 1,
+			  autoplay: true,
+			  autoplaySpeed: 2000,
+			});
+		});
+		 // highlight at navbar
+            var url = window.location.href;
+            var param = url.split('/');
+            var id = param[param.length-1];
+     		var id_ar = id.split('.');
+     		var final_id = id_ar[0];
+ 			document.getElementById(final_id).classList.add("active-nav-link");
+            
+	</script>
 </body>
 </html>

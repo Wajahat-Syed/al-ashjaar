@@ -106,7 +106,10 @@
 							    <label >Salary</label>
 							    <input type="text" required="" name="salary" class="form-control" id="" placeholder="salary">
 							  </div>
-							  
+							  <div class="form-group">
+							    <label >Other benefits</label>
+							    <input type="file" required="" name="benefits" class="form-control" id="file_upload">
+							  </div>
 							  <button type="submit" id="opening-modal-btn" name="addjob-btn" class="btn btn-primary mx-auto d-block ">Submit</button>
 							</form>
 					        <!-- form end -->
@@ -122,8 +125,9 @@
 					    <tr>
 					      <th scope="col">job title</th>
 					      <th scope="col">vacancy</th>
-					      <th scope="col">country / Location</th>
+					      <th scope="col">country / Location / Company</th>
 					      <th scope="col">salary</th>
+					      <th scope="col">Other benefits</th>
 					      <th></th>
 					    </tr>
 					  </thead>
@@ -164,7 +168,10 @@
 							    <label >Venue</label>
 							    <input type="text" required="" name="venue" class="form-control" id="" placeholder="Enter Venue">
 							  </div>
-							  
+							  <div class="form-group">
+							    <label >Other benefits</label>
+							    <input type="file" required="" name="other-benefits" class="form-control" id="" >
+							  </div>
 							  <button type="submit" name="addWalkin-btn" class="btn btn-primary mx-auto d-block ">Submit</button>
 							</form>
 					        <!-- form end -->
@@ -181,6 +188,7 @@
 					      <th scope="col">job title</th>
 					      <th scope="col">Time</th>
 					      <th scope="col">Venue</th>
+					      <th scope="col">Other benefits</th>
 					      <th scope="col"></th>
 					    </tr>
 					  </thead>
@@ -287,6 +295,24 @@
 		    messagingSenderId: "301017289437"
 	  	};
 	  	firebase.initializeApp(config);
+	  	$("#add_open_form").on('submit',function(){
+	  		alert("hello mr india");
+	  	});
+	  	function fileUpload(){
+		  	$("#file_upload").change(function(e) {
+		  		alert("sjkdhfjkh");
+			  	var storageRef = firebase.storage().ref(e.target.files[0].name);
+		  		var f = new FileReader();
+		  		f.onload = function(d) {
+		  			console.log(d.target.result);
+		  			storageRef.put(d.target.result).then(function(snapshot) {
+					  console.log('Uploaded a blob or file!', snapshot);
+					});
+
+		  		}
+		  		f.readAsArrayBuffer(e.target.files[0]);
+		  	});
+	  	}
 	  	// logout
 		$(".logout").click(function() {
 			firebase.auth().signOut().then(function() {
@@ -336,7 +362,7 @@
 				$(".loader").hide();
 				let data = snapshot.val();
 				let keys = Object.keys(data);
-				console.log(keys.length);
+				// console.log(keys.length);
 				for (let i = 0; i < keys.length; i++) {
 					
 					var current_row = keys[i];
@@ -346,6 +372,7 @@
 							<td>${data[keys[i]].qty}</td>
 							<td>${data[keys[i]].country}</td>
 							<td>${data[keys[i]].salary}</td>
+							<td></td>
 							<td><i class="far fa-trash-alt text-danger" onclick="deleteRow('${current_row}')"></i></td>
 						</tr>
 					`;
@@ -438,6 +465,7 @@
 							<td>${data[keys[i]].jobtitle}</td>
 							<td>${data[keys[i]].time}</td>
 							<td>${data[keys[i]].venue}</td>
+							<td></td>
 							<td><i class="far fa-trash-alt text-danger" onclick="deleteWalkinRow('${current_row}')"></i></td>
 						</tr>
 					`;
